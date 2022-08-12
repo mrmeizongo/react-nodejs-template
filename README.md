@@ -4,9 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
-
 ### You need to run `npm run build` to obtain the build folder that contains the react app.
+
+In the project directory, you can run:
 
 ### `npm run start-react-app`
 

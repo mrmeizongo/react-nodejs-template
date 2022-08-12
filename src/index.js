@@ -1,17 +1,14 @@
 import React, { Suspense } from "react";
 import ReactDOM from "react-dom/client";
+import App from "./components/App";
 import ErrorBoundary from "./components/ErrorBoundary";
 import reportWebVitals from "./analytics/reportWebVitals";
-
-const App = React.lazy(() => import("./components/App"));
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
 		<ErrorBoundary>
-			<Suspense fallback={<div>App loading...</div>}>
-				<App />
-			</Suspense>
+			<App />
 		</ErrorBoundary>
 	</React.StrictMode>
 );
