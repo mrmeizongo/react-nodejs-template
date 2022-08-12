@@ -16,7 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.
 You may also see any lint errors in the console.
 
-### `npm run start-server-app`
+### `npm run start-server`
 
 Runs the express server using nodemon.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
