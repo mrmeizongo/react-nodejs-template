@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### You need to run `npm run build` to obtain the build folder that contains the react app.\
+
 ### `npm run start-react-app`
 
 Runs the react app in the development mode.\
