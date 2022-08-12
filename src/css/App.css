@@ -132,7 +132,7 @@ table {
 	border-spacing: 0;
 }
 
-.app {
+.content {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -143,6 +143,6 @@ table {
 	color: var(--font-color);
 }
 
-.app p {
+.content p {
 	margin-top: 20px;
 }
