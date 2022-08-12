@@ -6,14 +6,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### You need to run `npm run build` to obtain the build folder that contains the react app.\
+### You need to run `npm run build` to obtain the build folder that contains the react app.
 
 ### `npm run start-react-app`
 
 Runs the react app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 ### `npm run start-server-app`
