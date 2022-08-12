@@ -33,7 +33,11 @@ app.listen(PORT, (error) => {
 	if (error) return console.log(`There was an error: ${error}`);
 
 	const address = networkInterfaces().wlo1[0]?.address;
-	console.log(`Server started successfully on http://${address}:${PORT}`);
+	console.log(
+		`Server started successfully\n`,
+		`On your local computer: http://localhost:${PORT}\n`,
+		`On other devices: http://${address || "local-ip-address"}:${PORT}`
+	);
 });
 
 //------------------------------------------------------------
