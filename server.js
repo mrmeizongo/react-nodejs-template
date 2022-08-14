@@ -31,14 +31,10 @@ app.get("/*", (req, res) => {
 //------------------------------------------------------------
 app.listen(PORT, (error) => {
 	if (error) return console.log(`There was an error: ${error}`);
-
-	const address = networkInterfaces().wlo1[0]?.address;
 	console.log(
 		`Server started successfully\n`,
 		`On local machine: http://localhost:${PORT}\n`,
-		`On other devices(same network): http://${
-			address || "local-ip-address"
-		}:${PORT}`
+		`On other devices(same network): http://local-ip-address:${PORT}`
 	);
 });
 
